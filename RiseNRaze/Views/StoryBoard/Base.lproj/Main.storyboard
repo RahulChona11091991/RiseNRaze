@@ -276,7 +276,7 @@
                             <constraint firstItem="q4u-AO-dB1" firstAttribute="centerX" secondItem="b0S-1x-XT4" secondAttribute="centerX" id="57x-TX-2Kg"/>
                             <constraint firstItem="V4O-mY-Ozt" firstAttribute="leading" secondItem="b0S-1x-XT4" secondAttribute="leading" constant="16" id="6uF-DU-Hse">
                                 <variation key="heightClass=regular-widthClass=compact" constant="16"/>
-                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
                             </constraint>
                             <constraint firstItem="V4O-mY-Ozt" firstAttribute="centerX" secondItem="b0S-1x-XT4" secondAttribute="centerX" id="8RS-ff-NkV"/>
                             <constraint firstItem="1NJ-71-v10" firstAttribute="trailing" secondItem="EN9-Iw-XyE" secondAttribute="trailing" id="BJN-k9-8to"/>
@@ -296,7 +296,7 @@
                             <constraint firstItem="q4u-AO-dB1" firstAttribute="width" secondItem="2tN-Pp-9Cj" secondAttribute="width" multiplier="0.7" id="e0C-48-svg"/>
                             <constraint firstItem="b0S-1x-XT4" firstAttribute="trailing" secondItem="V4O-mY-Ozt" secondAttribute="trailing" constant="16" id="eCX-aC-eez">
                                 <variation key="heightClass=regular-widthClass=compact" constant="16"/>
-                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
                             </constraint>
                             <constraint firstItem="V4O-mY-Ozt" firstAttribute="centerY" secondItem="b0S-1x-XT4" secondAttribute="centerY" multiplier="1.09" id="erI-1v-ggS"/>
                             <constraint firstItem="LJj-pg-wsf" firstAttribute="leading" secondItem="q4u-AO-dB1" secondAttribute="leading" id="hLH-hi-F48"/>
