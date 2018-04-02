@@ -21,6 +21,7 @@
 		0F4B041620726C1500DA2B34 /* StoryBoard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041520726C1500DA2B34 /* StoryBoard+Additions.swift */; };
 		0F4B041920726C7C00DA2B34 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041820726C7C00DA2B34 /* UIViewController+Additions.swift */; };
 		0F4B041B20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041A20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift */; };
+		0F4B041D2072814D00DA2B34 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041C2072814D00DA2B34 /* Model.swift */; };
 		0F894F0C2072441100D6C9DD /* RiseNRazeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F0B2072441000D6C9DD /* RiseNRazeViewController.swift */; };
 		0F894F202072477300D6C9DD /* ConfigureWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F1F2072477300D6C9DD /* ConfigureWorldViewController.swift */; };
 		0F894F2320724D1600D6C9DD /* RiseNRazeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F2220724D1600D6C9DD /* RiseNRazeTextField.swift */; };
@@ -68,6 +69,7 @@
 		0F4B041520726C1500DA2B34 /* StoryBoard+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StoryBoard+Additions.swift"; sourceTree = "<group>"; };
 		0F4B041820726C7C00DA2B34 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		0F4B041A20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigureWorldViewController+TextFieldDelegates.swift"; sourceTree = "<group>"; };
+		0F4B041C2072814D00DA2B34 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0F894F0B2072441000D6C9DD /* RiseNRazeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiseNRazeViewController.swift; sourceTree = "<group>"; };
 		0F894F1F2072477300D6C9DD /* ConfigureWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWorldViewController.swift; sourceTree = "<group>"; };
 		0F894F2220724D1600D6C9DD /* RiseNRazeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseNRazeTextField.swift; sourceTree = "<group>"; };
@@ -201,6 +203,20 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		0F4B041E2072815B00DA2B34 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0F4B041F2072817600DA2B34 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		0F894F0D2072443400D6C9DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +237,7 @@
 		0F894F0F2072445C00D6C9DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F4B041C2072814D00DA2B34 /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +245,7 @@
 		0F894F102072446C00D6C9DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F4B041E2072815B00DA2B34 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -254,6 +272,7 @@
 		0F894F142072449D00D6C9DD /* External */ = {
 			isa = PBXGroup;
 			children = (
+				0F4B041F2072817600DA2B34 /* Extension */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -658,6 +677,7 @@
 				0F4B0411207264B200DA2B34 /* RiseNRazeViewController+CollectionViewDelegates.swift in Sources */,
 				0F894F252072598400D6C9DD /* FutureGenerationManager.swift in Sources */,
 				0F311A9320720C9E00A0CC55 /* LifeCollectionViewCell.swift in Sources */,
+				0F4B041D2072814D00DA2B34 /* Model.swift in Sources */,
 				0F894F0C2072441100D6C9DD /* RiseNRazeViewController.swift in Sources */,
 				0F4B041920726C7C00DA2B34 /* UIViewController+Additions.swift in Sources */,
 				0F4B0413207267CA00DA2B34 /* Helper.swift in Sources */,
