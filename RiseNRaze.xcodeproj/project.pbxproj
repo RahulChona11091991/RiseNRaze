@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F311A9320720C9E00A0CC55 /* LifeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F311A9220720C9E00A0CC55 /* LifeCollectionViewCell.swift */; };
+		0F41188B206D07000060BF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F41188A206D07000060BF7A /* AppDelegate.swift */; };
+		0F411890206D07000060BF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F41188E206D07000060BF7A /* Main.storyboard */; };
+		0F411893206D07000060BF7A /* RiseNRaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F411891206D07000060BF7A /* RiseNRaze.xcdatamodeld */; };
+		0F411895206D07000060BF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F411894206D07000060BF7A /* Assets.xcassets */; };
+		0F411898206D07000060BF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F411896206D07000060BF7A /* LaunchScreen.storyboard */; };
+		0F4118A3206D07000060BF7A /* RiseNRazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4118A2206D07000060BF7A /* RiseNRazeTests.swift */; };
+		0F4118AE206D07000060BF7A /* RiseNRazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4118AD206D07000060BF7A /* RiseNRazeUITests.swift */; };
+		0F4B040F2072622900DA2B34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B040E2072622900DA2B34 /* Constants.swift */; };
+		0F4B0411207264B200DA2B34 /* RiseNRazeViewController+CollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B0410207264B200DA2B34 /* RiseNRazeViewController+CollectionViewDelegates.swift */; };
+		0F4B0413207267CA00DA2B34 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B0412207267CA00DA2B34 /* Helper.swift */; };
+		0F4B041620726C1500DA2B34 /* StoryBoard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041520726C1500DA2B34 /* StoryBoard+Additions.swift */; };
+		0F4B041920726C7C00DA2B34 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041820726C7C00DA2B34 /* UIViewController+Additions.swift */; };
+		0F4B041B20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B041A20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift */; };
+		0F894F0C2072441100D6C9DD /* RiseNRazeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F0B2072441000D6C9DD /* RiseNRazeViewController.swift */; };
+		0F894F202072477300D6C9DD /* ConfigureWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F1F2072477300D6C9DD /* ConfigureWorldViewController.swift */; };
+		0F894F2320724D1600D6C9DD /* RiseNRazeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F2220724D1600D6C9DD /* RiseNRazeTextField.swift */; };
+		0F894F252072598400D6C9DD /* FutureGenerationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F894F242072598400D6C9DD /* FutureGenerationManager.swift */; };
+		4D59BFE4A1E23628FDEF49DB /* Pods_RiseNRaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7359E115106A00D56B3AE488 /* Pods_RiseNRaze.framework */; };
+		93CA5BFA8B036FDB3A37BACD /* Pods_RiseNRazeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E388CEA0132E595BADBDD8 /* Pods_RiseNRazeTests.framework */; };
+		B23C55DB4F09C126E1AEEF56 /* Pods_RiseNRazeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233CD96C0D1B56A922E9060D /* Pods_RiseNRazeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F41189F206D07000060BF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F41187F206D07000060BF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F411886206D07000060BF7A;
+			remoteInfo = RiseNRaze;
+		};
+		0F4118AA206D07000060BF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F41187F206D07000060BF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F411886206D07000060BF7A;
+			remoteInfo = RiseNRaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F311A9220720C9E00A0CC55 /* LifeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCollectionViewCell.swift; sourceTree = "<group>"; };
+		0F411887206D07000060BF7A /* RiseNRaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiseNRaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F41188A206D07000060BF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F41188F206D07000060BF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F411892206D07000060BF7A /* RiseNRaze.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RiseNRaze.xcdatamodel; sourceTree = "<group>"; };
+		0F411894206D07000060BF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F411897206D07000060BF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F411899206D07000060BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F41189E206D07000060BF7A /* RiseNRazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiseNRazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4118A2206D07000060BF7A /* RiseNRazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseNRazeTests.swift; sourceTree = "<group>"; };
+		0F4118A4206D07000060BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4118A9206D07000060BF7A /* RiseNRazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiseNRazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4118AD206D07000060BF7A /* RiseNRazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseNRazeUITests.swift; sourceTree = "<group>"; };
+		0F4118AF206D07000060BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4B040E2072622900DA2B34 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0F4B0410207264B200DA2B34 /* RiseNRazeViewController+CollectionViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RiseNRazeViewController+CollectionViewDelegates.swift"; sourceTree = "<group>"; };
+		0F4B0412207267CA00DA2B34 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0F4B041520726C1500DA2B34 /* StoryBoard+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StoryBoard+Additions.swift"; sourceTree = "<group>"; };
+		0F4B041820726C7C00DA2B34 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		0F4B041A20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigureWorldViewController+TextFieldDelegates.swift"; sourceTree = "<group>"; };
+		0F894F0B2072441000D6C9DD /* RiseNRazeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiseNRazeViewController.swift; sourceTree = "<group>"; };
+		0F894F1F2072477300D6C9DD /* ConfigureWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWorldViewController.swift; sourceTree = "<group>"; };
+		0F894F2220724D1600D6C9DD /* RiseNRazeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseNRazeTextField.swift; sourceTree = "<group>"; };
+		0F894F242072598400D6C9DD /* FutureGenerationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FutureGenerationManager.swift; sourceTree = "<group>"; };
+		233CD96C0D1B56A922E9060D /* Pods_RiseNRazeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiseNRazeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAD95080FD36AB0B8C5D051 /* Pods-RiseNRaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiseNRaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiseNRaze/Pods-RiseNRaze.debug.xcconfig"; sourceTree = "<group>"; };
+		51E388CEA0132E595BADBDD8 /* Pods_RiseNRazeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiseNRazeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7359E115106A00D56B3AE488 /* Pods_RiseNRaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiseNRaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D519B9419176D15C29A900D /* Pods-RiseNRazeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiseNRazeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiseNRazeTests/Pods-RiseNRazeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CF14578DB60848101B791E9 /* Pods-RiseNRazeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiseNRazeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiseNRazeTests/Pods-RiseNRazeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90CF9752EBE736A728B2E3D2 /* Pods-RiseNRaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiseNRaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiseNRaze/Pods-RiseNRaze.release.xcconfig"; sourceTree = "<group>"; };
+		AA0F1B030B197A6EF5C0789E /* Pods-RiseNRazeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiseNRazeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiseNRazeUITests/Pods-RiseNRazeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2E54FCAB4F7AFA282A5112F /* Pods-RiseNRazeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiseNRazeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiseNRazeUITests/Pods-RiseNRazeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F411884206D07000060BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D59BFE4A1E23628FDEF49DB /* Pods_RiseNRaze.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F41189B206D07000060BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CA5BFA8B036FDB3A37BACD /* Pods_RiseNRazeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4118A6206D07000060BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23C55DB4F09C126E1AEEF56 /* Pods_RiseNRazeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F311A9120720C8100A0CC55 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0F311A9220720C9E00A0CC55 /* LifeCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0F41187E206D07000060BF7A = {
+			isa = PBXGroup;
+			children = (
+				0F411889206D07000060BF7A /* RiseNRaze */,
+				0F4118A1206D07000060BF7A /* RiseNRazeTests */,
+				0F4118AC206D07000060BF7A /* RiseNRazeUITests */,
+				0F411888206D07000060BF7A /* Products */,
+				2E07DA3FB2C96EB1B1AEA8F6 /* Pods */,
+				2E335872A39BA3B8E545803B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F411888206D07000060BF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F411887206D07000060BF7A /* RiseNRaze.app */,
+				0F41189E206D07000060BF7A /* RiseNRazeTests.xctest */,
+				0F4118A9206D07000060BF7A /* RiseNRazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F411889206D07000060BF7A /* RiseNRaze */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F0E2072444200D6C9DD /* Application */,
+				0F894F0D2072443400D6C9DD /* Controller */,
+				0F4B040D2072622900DA2B34 /* Constants */,
+				0F894F142072449D00D6C9DD /* External */,
+				0F894F132072449600D6C9DD /* Library */,
+				0F894F112072447E00D6C9DD /* Views */,
+				0F894F102072446C00D6C9DD /* Resources */,
+				0F894F0F2072445C00D6C9DD /* Models */,
+				0F411894206D07000060BF7A /* Assets.xcassets */,
+				0F411899206D07000060BF7A /* Info.plist */,
+				0F411891206D07000060BF7A /* RiseNRaze.xcdatamodeld */,
+			);
+			path = RiseNRaze;
+			sourceTree = "<group>";
+		};
+		0F4118A1206D07000060BF7A /* RiseNRazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F4118A2206D07000060BF7A /* RiseNRazeTests.swift */,
+				0F4118A4206D07000060BF7A /* Info.plist */,
+			);
+			path = RiseNRazeTests;
+			sourceTree = "<group>";
+		};
+		0F4118AC206D07000060BF7A /* RiseNRazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F4118AD206D07000060BF7A /* RiseNRazeUITests.swift */,
+				0F4118AF206D07000060BF7A /* Info.plist */,
+			);
+			path = RiseNRazeUITests;
+			sourceTree = "<group>";
+		};
+		0F4B040D2072622900DA2B34 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B040E2072622900DA2B34 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0F4B041420726C1500DA2B34 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B041520726C1500DA2B34 /* StoryBoard+Additions.swift */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		0F4B041720726C5900DA2B34 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B041820726C7C00DA2B34 /* UIViewController+Additions.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		0F894F0D2072443400D6C9DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F1E2072474100D6C9DD /* ConfigureWorldViewController */,
+				0F894F1D2072461E00D6C9DD /* RiseNRazeViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F894F0E2072444200D6C9DD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0F41188A206D07000060BF7A /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0F894F0F2072445C00D6C9DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F894F102072446C00D6C9DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F894F112072447E00D6C9DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F16207244B500D6C9DD /* XIB */,
+				0F894F15207244A800D6C9DD /* StoryBoard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F894F132072449600D6C9DD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F192072456700D6C9DD /* Helper */,
+				0F894F182072456000D6C9DD /* Extensions */,
+				0F894F172072455900D6C9DD /* Managers */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0F894F142072449D00D6C9DD /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		0F894F15207244A800D6C9DD /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0F41188E206D07000060BF7A /* Main.storyboard */,
+				0F411896206D07000060BF7A /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		0F894F16207244B500D6C9DD /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0F894F172072455900D6C9DD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F1A207245B700D6C9DD /* FutureGenerationManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0F894F182072456000D6C9DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B041720726C5900DA2B34 /* UIViewController */,
+				0F4B041420726C1500DA2B34 /* StoryBoard */,
+				0F894F2120724D0300D6C9DD /* TextFields */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F894F192072456700D6C9DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B0412207267CA00DA2B34 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0F894F1A207245B700D6C9DD /* FutureGenerationManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F242072598400D6C9DD /* FutureGenerationManager.swift */,
+			);
+			path = FutureGenerationManager;
+			sourceTree = "<group>";
+		};
+		0F894F1D2072461E00D6C9DD /* RiseNRazeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F311A9120720C8100A0CC55 /* Cell */,
+				0F894F0B2072441000D6C9DD /* RiseNRazeViewController.swift */,
+				0F4B0410207264B200DA2B34 /* RiseNRazeViewController+CollectionViewDelegates.swift */,
+			);
+			path = RiseNRazeViewController;
+			sourceTree = "<group>";
+		};
+		0F894F1E2072474100D6C9DD /* ConfigureWorldViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F1F2072477300D6C9DD /* ConfigureWorldViewController.swift */,
+				0F4B041A20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift */,
+			);
+			path = ConfigureWorldViewController;
+			sourceTree = "<group>";
+		};
+		0F894F2120724D0300D6C9DD /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				0F894F2220724D1600D6C9DD /* RiseNRazeTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		2E07DA3FB2C96EB1B1AEA8F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD95080FD36AB0B8C5D051 /* Pods-RiseNRaze.debug.xcconfig */,
+				90CF9752EBE736A728B2E3D2 /* Pods-RiseNRaze.release.xcconfig */,
+				8CF14578DB60848101B791E9 /* Pods-RiseNRazeTests.debug.xcconfig */,
+				7D519B9419176D15C29A900D /* Pods-RiseNRazeTests.release.xcconfig */,
+				B2E54FCAB4F7AFA282A5112F /* Pods-RiseNRazeUITests.debug.xcconfig */,
+				AA0F1B030B197A6EF5C0789E /* Pods-RiseNRazeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E335872A39BA3B8E545803B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7359E115106A00D56B3AE488 /* Pods_RiseNRaze.framework */,
+				51E388CEA0132E595BADBDD8 /* Pods_RiseNRazeTests.framework */,
+				233CD96C0D1B56A922E9060D /* Pods_RiseNRazeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F411886206D07000060BF7A /* RiseNRaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4118B2206D07000060BF7A /* Build configuration list for PBXNativeTarget "RiseNRaze" */;
+			buildPhases = (
+				F3168E37C637EEC9341E9C9D /* [CP] Check Pods Manifest.lock */,
+				0F411883206D07000060BF7A /* Sources */,
+				0F411884206D07000060BF7A /* Frameworks */,
+				0F411885206D07000060BF7A /* Resources */,
+				4EB43F4C2FAB5E926817C229 /* [CP] Embed Pods Frameworks */,
+				43CDFB82D7D59DADBF1E6318 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiseNRaze;
+			productName = RiseNRaze;
+			productReference = 0F411887206D07000060BF7A /* RiseNRaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F41189D206D07000060BF7A /* RiseNRazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4118B5206D07000060BF7A /* Build configuration list for PBXNativeTarget "RiseNRazeTests" */;
+			buildPhases = (
+				9F54B6BD6E159E5C924D08C7 /* [CP] Check Pods Manifest.lock */,
+				0F41189A206D07000060BF7A /* Sources */,
+				0F41189B206D07000060BF7A /* Frameworks */,
+				0F41189C206D07000060BF7A /* Resources */,
+				8170C7A8C25E31E3E8BC0B0E /* [CP] Embed Pods Frameworks */,
+				245E430AF6EE5C0F54BBA3A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F4118A0206D07000060BF7A /* PBXTargetDependency */,
+			);
+			name = RiseNRazeTests;
+			productName = RiseNRazeTests;
+			productReference = 0F41189E206D07000060BF7A /* RiseNRazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F4118A8206D07000060BF7A /* RiseNRazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4118B8206D07000060BF7A /* Build configuration list for PBXNativeTarget "RiseNRazeUITests" */;
+			buildPhases = (
+				A9EA44B8417E8B72E8044D63 /* [CP] Check Pods Manifest.lock */,
+				0F4118A5206D07000060BF7A /* Sources */,
+				0F4118A6206D07000060BF7A /* Frameworks */,
+				0F4118A7206D07000060BF7A /* Resources */,
+				2A99682977CB2FD251585F13 /* [CP] Embed Pods Frameworks */,
+				D04A95A969845597F026C4CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F4118AB206D07000060BF7A /* PBXTargetDependency */,
+			);
+			name = RiseNRazeUITests;
+			productName = RiseNRazeUITests;
+			productReference = 0F4118A9206D07000060BF7A /* RiseNRazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F41187F206D07000060BF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rahul Chona";
+				TargetAttributes = {
+					0F411886206D07000060BF7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0F41189D206D07000060BF7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F411886206D07000060BF7A;
+					};
+					0F4118A8206D07000060BF7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F411886206D07000060BF7A;
+					};
+				};
+			};
+			buildConfigurationList = 0F411882206D07000060BF7A /* Build configuration list for PBXProject "RiseNRaze" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F41187E206D07000060BF7A;
+			productRefGroup = 0F411888206D07000060BF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F411886206D07000060BF7A /* RiseNRaze */,
+				0F41189D206D07000060BF7A /* RiseNRazeTests */,
+				0F4118A8206D07000060BF7A /* RiseNRazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F411885206D07000060BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F411898206D07000060BF7A /* LaunchScreen.storyboard in Resources */,
+				0F411895206D07000060BF7A /* Assets.xcassets in Resources */,
+				0F411890206D07000060BF7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F41189C206D07000060BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4118A7206D07000060BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		245E430AF6EE5C0F54BBA3A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRazeTests/Pods-RiseNRazeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A99682977CB2FD251585F13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRazeUITests/Pods-RiseNRazeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CDFB82D7D59DADBF1E6318 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRaze/Pods-RiseNRaze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB43F4C2FAB5E926817C229 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRaze/Pods-RiseNRaze-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRaze/Pods-RiseNRaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8170C7A8C25E31E3E8BC0B0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRazeTests/Pods-RiseNRazeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F54B6BD6E159E5C924D08C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiseNRazeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EA44B8417E8B72E8044D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiseNRazeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04A95A969845597F026C4CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiseNRazeUITests/Pods-RiseNRazeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3168E37C637EEC9341E9C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiseNRaze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F411883206D07000060BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F894F2320724D1600D6C9DD /* RiseNRazeTextField.swift in Sources */,
+				0F894F202072477300D6C9DD /* ConfigureWorldViewController.swift in Sources */,
+				0F411893206D07000060BF7A /* RiseNRaze.xcdatamodeld in Sources */,
+				0F4B041620726C1500DA2B34 /* StoryBoard+Additions.swift in Sources */,
+				0F4B0411207264B200DA2B34 /* RiseNRazeViewController+CollectionViewDelegates.swift in Sources */,
+				0F894F252072598400D6C9DD /* FutureGenerationManager.swift in Sources */,
+				0F311A9320720C9E00A0CC55 /* LifeCollectionViewCell.swift in Sources */,
+				0F894F0C2072441100D6C9DD /* RiseNRazeViewController.swift in Sources */,
+				0F4B041920726C7C00DA2B34 /* UIViewController+Additions.swift in Sources */,
+				0F4B0413207267CA00DA2B34 /* Helper.swift in Sources */,
+				0F41188B206D07000060BF7A /* AppDelegate.swift in Sources */,
+				0F4B040F2072622900DA2B34 /* Constants.swift in Sources */,
+				0F4B041B20726ECB00DA2B34 /* ConfigureWorldViewController+TextFieldDelegates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F41189A206D07000060BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4118A3206D07000060BF7A /* RiseNRazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4118A5206D07000060BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4118AE206D07000060BF7A /* RiseNRazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F4118A0206D07000060BF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F411886206D07000060BF7A /* RiseNRaze */;
+			targetProxy = 0F41189F206D07000060BF7A /* PBXContainerItemProxy */;
+		};
+		0F4118AB206D07000060BF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F411886206D07000060BF7A /* RiseNRaze */;
+			targetProxy = 0F4118AA206D07000060BF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F41188E206D07000060BF7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F41188F206D07000060BF7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F411896206D07000060BF7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F411897206D07000060BF7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4118B0206D07000060BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F4118B1206D07000060BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F4118B3206D07000060BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAD95080FD36AB0B8C5D051 /* Pods-RiseNRaze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CQL6MY7G8;
+				INFOPLIST_FILE = RiseNRaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leelaSusham.mamasoft.RiseNRaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F4118B4206D07000060BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CF9752EBE736A728B2E3D2 /* Pods-RiseNRaze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CQL6MY7G8;
+				INFOPLIST_FILE = RiseNRaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leelaSusham.mamasoft.RiseNRaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F4118B6206D07000060BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF14578DB60848101B791E9 /* Pods-RiseNRazeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiseNRazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leelaSusham.mamasoft.RiseNRazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiseNRaze.app/RiseNRaze";
+			};
+			name = Debug;
+		};
+		0F4118B7206D07000060BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D519B9419176D15C29A900D /* Pods-RiseNRazeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiseNRazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leelaSusham.mamasoft.RiseNRazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiseNRaze.app/RiseNRaze";
+			};
+			name = Release;
+		};
+		0F4118B9206D07000060BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E54FCAB4F7AFA282A5112F /* Pods-RiseNRazeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiseNRazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leelaSusham.mamasoft.RiseNRazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiseNRaze;
+			};
+			name = Debug;
+		};
+		0F4118BA206D07000060BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0F1B030B197A6EF5C0789E /* Pods-RiseNRazeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiseNRazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leelaSusham.mamasoft.RiseNRazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiseNRaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F411882206D07000060BF7A /* Build configuration list for PBXProject "RiseNRaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4118B0206D07000060BF7A /* Debug */,
+				0F4118B1206D07000060BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4118B2206D07000060BF7A /* Build configuration list for PBXNativeTarget "RiseNRaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4118B3206D07000060BF7A /* Debug */,
+				0F4118B4206D07000060BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4118B5206D07000060BF7A /* Build configuration list for PBXNativeTarget "RiseNRazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4118B6206D07000060BF7A /* Debug */,
+				0F4118B7206D07000060BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4118B8206D07000060BF7A /* Build configuration list for PBXNativeTarget "RiseNRazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4118B9206D07000060BF7A /* Debug */,
+				0F4118BA206D07000060BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F411891206D07000060BF7A /* RiseNRaze.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F411892206D07000060BF7A /* RiseNRaze.xcdatamodel */,
+			);
+			currentVersion = 0F411892206D07000060BF7A /* RiseNRaze.xcdatamodel */;
+			path = RiseNRaze.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F41187F206D07000060BF7A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_RiseNRazeTests {
+  umbrella header "Pods-RiseNRazeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
