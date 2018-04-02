@@ -42,13 +42,10 @@ class ConfigureWorldViewController: UIViewController {
     }
     
     @IBAction func begin(_ sender: Any) {
-        if (rowsCountTextField.text?.count ?? 0) > 0 && (columnsCountTextField.text?.count ?? 0) > 0 {
-            
-            if ((Int((rowsCountTextField.text ?? "0")) ?? 0) > 2 && (Int((rowsCountTextField.text ?? "0")) ?? 0) <= 10) && ((Int((columnsCountTextField.text ?? "0")) ?? 0) > 2 && (Int((columnsCountTextField.text ?? "0")) ?? 0) <= 10) {
+        if validateData() {
                 FutureGenerationManager.sharedManager().row = Int(rowsCountTextField.text ?? "0") ?? 0
                 FutureGenerationManager.sharedManager().column = Int(columnsCountTextField.text ?? "0") ?? 0
                 self.presentRiseNRazeViewController()
-            }
         }
     }
     
@@ -58,6 +55,18 @@ class ConfigureWorldViewController: UIViewController {
     }
 
     override var shouldAutorotate: Bool {
+        return false
+    }
+}
+
+extension ConfigureWorldViewController {
+    func validateData() -> Bool {
+        if (rowsCountTextField.text?.count ?? 0) > 0 && (columnsCountTextField.text?.count ?? 0) > 0 {
+            
+            if ((Int((rowsCountTextField.text ?? "0")) ?? 0) > 2 && (Int((rowsCountTextField.text ?? "0")) ?? 0) <= 10) && ((Int((columnsCountTextField.text ?? "0")) ?? 0) > 2 && (Int((columnsCountTextField.text ?? "0")) ?? 0) <= 10) {
+                return true
+            }
+        }
         return false
     }
 }
