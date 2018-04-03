@@ -25,6 +25,11 @@ struct RRConstants {
         case Alive = 1
     }
     
+    enum NumberOfLivesBound:Int {
+        case Lower = 2
+        case Upper = 10
+    }
+    
     struct CollectionViewConstants {
         static let lifeCellConstant = "LifeCollectionViewCell"
     }
